@@ -1,4 +1,4 @@
-import { User } from "../../../types/typings";
+import { User } from "../interfaces";
 
 export interface ReplyBoxProps {
   user?: User;

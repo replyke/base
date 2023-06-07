@@ -3,7 +3,7 @@ import CommentEditBase from "./CommentEditBase";
 
 const meta: Meta<typeof CommentEditBase> = {
   component: CommentEditBase,
-  title: "Base Components/Comment Edit",
+  title: "Comment Edit",
 };
 
 export default meta;

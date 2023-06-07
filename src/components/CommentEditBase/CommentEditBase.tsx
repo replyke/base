@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import StyledButton from "../StyledButton";
+import {StyledButton} from "../StyledButton";
 import { CommentEditBaseProps } from "./interface";
 
 function CommentEditBase({

@@ -1,6 +1,6 @@
 import React from "react";
-import { ReplyCTAProps } from "./interface";
 import { BiCommentDetail } from "react-icons/bi";
+import { ReplyCTAProps } from "./interface";
 
 function ReplyCTA({ showReply, replyCtaText, marginTop }: ReplyCTAProps) {
   return (

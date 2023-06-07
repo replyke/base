@@ -1,1 +1,2 @@
-export { default } from "./CommentEditBase";
+export { default as CommentEditBase } from "./CommentEditBase";
+export {CommentEditBaseProps} from './interface'

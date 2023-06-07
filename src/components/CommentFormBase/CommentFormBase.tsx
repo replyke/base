@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import StyledButton from "../StyledButton";
+import {StyledButton} from "../StyledButton";
 import { CommentFormBaseProps } from "./interface";
 
 function CommentFormBase({
@@ -28,8 +28,6 @@ function CommentFormBase({
   textareaPaddingTop,
   textareaPaddingBottom,
   textareaBorderRadius,
-  avatarBorderRadius,
-  avatarSize = 24,
 }: CommentFormBaseProps) {
   const [body, setBody] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -60,43 +58,7 @@ function CommentFormBase({
           borderRadius: textareaBorderRadius,
         }}
       >
-        {/* {user && (
-          <div
-            className="flex items-center"
-            style={{
-              marginBottom: 12,
-              padding: textareaPaddingLeft ? textareaPaddingLeft / 2 : 0,
-            }}
-          >
-            {user.img ? (
-              <img
-                src={user.img}
-                alt={user.name}
-                className="object-cover"
-                style={{
-                  borderRadius: avatarBorderRadius,
-                  height: avatarSize,
-                  width: avatarSize,
-                }}
-              />
-            ) : (
-              <div
-                className="mx-2 bg-gray-300 flex items-center justify-center border"
-                style={{
-                  borderRadius: avatarBorderRadius,
-                  height: avatarSize,
-                  width: avatarSize,
-                }}
-              >
-                <BsFillPersonFill
-                  style={{ width: 15, height: 15, color: "#9c9c9c" }}
-                />
-              </div>
-            )}
-            <div style={{ width: 12 }} />
-            <p style={{ fontSize: 14 }}>{user.name}</p>
-          </div>
-        )} */}
+
         <textarea
           rows={textareaDefaultRows}
           value={body}

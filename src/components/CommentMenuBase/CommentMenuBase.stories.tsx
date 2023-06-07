@@ -3,7 +3,7 @@ import CommentMenuBase from "./CommentMenuBase";
 
 const meta: Meta<typeof CommentMenuBase> = {
   component: CommentMenuBase,
-  title: "Base Components/Comment Menu",
+  title: "Comment Menu",
 };
 
 export default meta;

@@ -1,1 +1,2 @@
-export { default } from "./ReplyCTA";
+export { default as ReplyCTA } from "./ReplyCTA";
+export {ReplyCTAProps} from './interface'

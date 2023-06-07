@@ -1,44 +1,8 @@
-import { Comment, User, TailwindColors, BorderStyles } from "../../../types/typings";
-
-// export type TailwindColors =
-//   | "slate"
-//   | "gray"
-//   | "zinc"
-//   | "neutral"
-//   | "stone"
-//   | "red"
-//   | "orange"
-//   | "amber"
-//   | "yellow"
-//   | "lime"
-//   | "green"
-//   | "emerald"
-//   | "teal"
-//   | "cyan"
-//   | "sky"
-//   | "blue"
-//   | "indigo"
-//   | "violet"
-//   | "purple"
-//   | "fuchsia"
-//   | "pink"
-//   | "rose";
-
-// export type BorderStyles =
-//   | "solid"
-//   | "dashed"
-//   | "dotted"
-//   | "double"
-//   | "groove"
-//   | "ridge"
-//   | "inset"
-//   | "outset"
-//   | "none"
-//   | "hidden";
+import { Comment, User, TailwindColors, BorderStyles } from "../interfaces";
 
 export interface CommentBaseProps {
-  user?:User;
-  
+  user?: User;
+
   index: number;
   comment: Comment;
   ReplyComponent: React.ElementType;

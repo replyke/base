@@ -1,6 +1,6 @@
 {
-  "name": "replyke",
-  "version": "1.0.0",
+  "name": "@replyke/base",
+  "version": "1.3.5",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -8,11 +8,15 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/replyke"
+  },
   "scripts": {
-    "rollup-build-lib": "rollup -c",
+    "rollup-build": "rollup -c --bundleConfigAsCjs",
+    "tailwind": "npx tailwindcss -i ./src/tailwind-input.css -o ./tailwind-dist/tailwind-output.css --watch",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "tailwind": "npx tailwindcss -i ./src/tailwind-input.css -o ./tailwind-dist/tailwind-output.css --watch"
+    "build-storybook": "storybook build"
   },
   "author": "Yanay",
   "license": "ISC",

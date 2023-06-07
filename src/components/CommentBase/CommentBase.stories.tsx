@@ -3,7 +3,7 @@ import CommentBase from "./CommentBase";
 
 const meta: Meta<typeof CommentBase> = {
   component: CommentBase,
-  title: "Base Components/Comment",
+  title: "Comment",
 };
 
 export default meta;

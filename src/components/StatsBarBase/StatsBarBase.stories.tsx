@@ -3,7 +3,7 @@ import StatsBarBase from "./StatsBarBase";
 
 const meta: Meta<typeof StatsBarBase> = {
   component: StatsBarBase,
-  title: "Base Components/Stats Bar",
+  title: "Stats Bar",
 };
 
 export default meta;

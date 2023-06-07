@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Modal } from "flowbite-react";
 import { FcGoogle } from "react-icons/fc";
 import { FaApple, FaFacebookF, FaTwitter } from "react-icons/fa";
-import StyledButton from "../StyledButton";
+import {StyledButton} from "../StyledButton";
 import { AuthenticationModalProps } from "./interface";
 
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BiLike, BiCommentDetail } from "react-icons/bi";
 import { BsFillPersonFill } from "react-icons/bs";
-import AuthenticationModal from "../AuthenticationForm";
+import {AuthenticationModal} from "../AuthenticationModal";
 import { StatsBarBaseProps } from "./interface";
 
 function StatsBarBase({

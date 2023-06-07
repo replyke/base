@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import StyledButton from "../StyledButton";
+import {StyledButton} from "../StyledButton";
 import { ReplyBoxProps } from "./interface";
 
 function ReplyBox({

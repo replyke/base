@@ -1,18 +1,17 @@
 import React, { useEffect, useState } from "react";
 import moment from "moment";
-
 import { BiCommentDetail } from "react-icons/bi";
 import { TbThumbUp, TbThumbUpFilled } from "react-icons/tb";
 
-import dummyComments from "../../../dummy";
+import dummyComments from "../../dummy";
 
-import CommentMenuBase from "../CommentMenuBase";
-import ReplyBox from "../ReplyBox";
-import ReplyCTA from "../ReplyCTA";
-import CommentEditBase from "../CommentEditBase";
-import StyledButton from "../StyledButton";
+import { CommentMenuBase } from "../CommentMenuBase";
+import { ReplyBox } from "../ReplyBox";
+import { ReplyCTA } from "../ReplyCTA";
+import { CommentEditBase } from "../CommentEditBase";
+import { StyledButton } from "../StyledButton";
 import { CommentBaseProps } from "./interface";
-import { Comment } from "../../../types/typings";
+import { Comment } from "../interfaces";
 
 function CommentBase({
   user,

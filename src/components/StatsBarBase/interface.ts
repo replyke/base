@@ -1,16 +1,6 @@
-import { BorderStyles } from "../../../types/typings";
+import { BorderStyles } from "..//interfaces";
 
-// export type BorderStyles =
-//   | "solid"
-//   | "dashed"
-//   | "dotted"
-//   | "double"
-//   | "groove"
-//   | "ridge"
-//   | "inset"
-//   | "outset"
-//   | "none"
-//   | "hidden";
+
 export interface StatsBarBaseProps {
   itemIdentifier: string;
 
